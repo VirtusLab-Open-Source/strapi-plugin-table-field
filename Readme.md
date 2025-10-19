@@ -10,9 +10,6 @@
   <a href="https://www.npmjs.org/package/@sensinum/strapi-table-field">
     <img src="https://img.shields.io/npm/dm/@sensinum/strapi-table-field.svg" alt="Monthly download on NPM" />
   </a>
-  <a href="https://codecov.io/gh/VirtusLab-Open-Source/strapi-plugin-table-field">
-    <img src="https://codecov.io/gh/VirtusLab-Open-Source/strapi-plugin-table-field/branch/main/graph/badge.svg?token=p4KW9ytA6u" alt="codecov.io" />
-  </a>
 </div>
 
 ---

@@ -74,9 +74,7 @@
     "test:server:ci": "CI=true jest --ci --runInBand --verbose --coverage --config server/jest.config.js"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.74.11",
-    "react-intl": "^7.1.6",
-    "zod": "^3.24.3"
+    "react-intl": "^7.1.6"
   },
   "devDependencies": {
     "@sensinum/strapi-utils": "^1.0.10",
