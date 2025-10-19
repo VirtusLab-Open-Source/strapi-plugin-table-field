@@ -1,5 +1,5 @@
 {
-  "name": "@sensinum/table-field",
+  "name": "@sensinum/strapi-table-field",
   "version": "1.0.0",
   "type": "commonjs",
   "description": "Table Custom Field for Strapi",

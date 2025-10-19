@@ -4,11 +4,11 @@
 <div align="center">
   <h1>Strapi Table Custom Field</h1>
   <p>A custom field which allow to build table structured data sets</p>
-  <a href="https://www.npmjs.org/package/@sensinum/table-field">
-    <img alt="NPM version" src="https://img.shields.io/npm/v/@sensinum/table-field.svg">
+  <a href="https://www.npmjs.org/package/@sensinum/strapi-table-field">
+    <img alt="NPM version" src="https://img.shields.io/npm/v/@sensinum/strapi-table-field.svg">
   </a>
-  <a href="https://www.npmjs.org/package/@sensinum/table-field">
-    <img src="https://img.shields.io/npm/dm/@sensinum/table-field.svg" alt="Monthly download on NPM" />
+  <a href="https://www.npmjs.org/package/@sensinum/strapi-table-field">
+    <img src="https://img.shields.io/npm/dm/@sensinum/strapi-table-field.svg" alt="Monthly download on NPM" />
   </a>
   <a href="https://codecov.io/gh/VirtusLab-Open-Source/strapi-plugin-table-field">
     <img src="https://codecov.io/gh/VirtusLab-Open-Source/strapi-plugin-table-field/branch/main/graph/badge.svg?token=p4KW9ytA6u" alt="codecov.io" />
@@ -53,9 +53,9 @@ A Strapi plugin that adds a **custom field** that handles dynamic creation and h
 ## 📦 Installation
 
 ```bash
-npm install @sensinum/table-field@latest
+npm install @sensinum/strapi-table-field@latest
 # or
-yarn add @sensinum/table-field@latest
+yarn add @sensinum/strapi-table-field@latest
 ```
 
 After installation, the plugin will be automatically available in your Strapi admin panel.
