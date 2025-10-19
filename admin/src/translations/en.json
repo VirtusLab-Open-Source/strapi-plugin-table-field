@@ -1,0 +1,7 @@
+{
+  "controls.addRow": "Add row",
+  "controls.addColumn": "Add column",
+  "controls.deleteRow": "Delete row",
+  "controls.deleteColumn": "Delete column",
+  "controls.deleteCell": "Delete cell"
+}
