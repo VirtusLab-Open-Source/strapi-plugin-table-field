@@ -19,7 +19,7 @@ jobs:
       - restore_cache:
           keys:
             # when lock file changes, use increasingly general patterns to restore cache
-            - strapi-plugin-table-field-1746548904-{{ checksum "yarn.lock" }}
+            - strapi-plugin-table-field-1746548904-{{ checksum "package.json" }}
             - strapi-plugin-table-field-1746548904
       - run:
           name: Echo versions
@@ -41,13 +41,13 @@ jobs:
       - save_cache:
           paths:
             - ./node_modules
-          key: strapi-plugin-table-field-1746548904-{{ checksum "yarn.lock" }}
+          key: strapi-plugin-table-field-1746548904-{{ checksum "package.json.lock" }}
       - persist_to_workspace:
           root: ~/repo
           paths: .
   deploy:
     docker:
-      - image: cimg/node:20.12.2
+      - image: cimg/node:20.19
     working_directory: ~/repo
     resource_class: large
     steps:
@@ -66,7 +66,7 @@ jobs:
           command: npm publish --tag latest
   deployBeta:
     docker:
-      - image: cimg/node:20.12.2
+      - image: cimg/node:20.19
     working_directory: ~/repo
     resource_class: large
     steps:
