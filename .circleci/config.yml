@@ -35,6 +35,10 @@ jobs:
           command: |
             yarn install
       - run:
+          name: Build
+          command: |
+            yarn build
+      - run:
           name: Verify
           command: |
             yarn verify
