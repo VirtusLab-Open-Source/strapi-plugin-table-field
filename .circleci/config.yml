@@ -4,7 +4,7 @@ orbs:
 jobs:
   verify:
     docker:
-      - image: cimg/node:20.12.2
+      - image: cimg/node:20.19
     working_directory: ~/repo
     resource_class: large
     steps:
