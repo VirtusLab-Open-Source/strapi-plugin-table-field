@@ -45,7 +45,7 @@ jobs:
       - save_cache:
           paths:
             - ./node_modules
-          key: strapi-plugin-table-field-1746548904-{{ checksum "package.json.lock" }}
+          key: strapi-plugin-table-field-1746548904-{{ checksum "package.json" }}
       - persist_to_workspace:
           root: ~/repo
           paths: .
