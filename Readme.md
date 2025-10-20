@@ -14,11 +14,6 @@
 
 ---
 
-<div style="margin: 20px 0" align="center">
-  <img style="width: 100%; height: auto;" src="https://www.sensinum.com/img/open-source/strapi-plugin-table-field/preview.png" alt="UI preview" />
-</div>
-
-
 A Strapi plugin that adds a **custom field** that handles dynamic creation and handling of table structured data sets.
 
 ## 📋 Table of Contents
@@ -124,11 +119,9 @@ When you query content with a table field, the data will be included in the resp
 {
   "data": {
     "id": 1,
-    "attributes": {
-      "myTableField": {
-        "columns": [...],
-        "rows": [...]
-      }
+    "myTableField": {
+      "columns": [...],
+      "rows": [...]
     }
   }
 }
