@@ -1,5 +1,5 @@
 <div align="center" style="max-width: 10rem; margin: 0 auto">
-  <img style="width: 150px; height: auto;" src="https://www.sensinum.com/img/open-source/strapi-plugin-table-field/logo.png" alt="Logo - Strapi Table Custom Field" />
+  <img style="width: 150px; height: auto;" src="https://www.sensinum.com/img/open-source/strapi-plugin-power-fields/logo.png" alt="Logo - Strapi Power Fields" />
 </div>
 <div align="center">
   <h1>Strapi Table Custom Field</h1>
